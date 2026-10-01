@@ -2,14 +2,14 @@
   "expo": {
     "name": "SnackTrack",
     "slug": "snacktrack",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.malverma.snacktrack",
-      "buildNumber": "2"
+      "buildNumber": "3"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,7 +20,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.malverma.snacktrack",
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -34,6 +34,15 @@
           "photosPermission": "Allow $(PRODUCT_NAME) to use your photos for meal pictures.",
           "cameraPermission": "Allow $(PRODUCT_NAME) to use the camera to take meal pictures.",
           "microphonePermission": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#121016"
         }
       ]
     ],

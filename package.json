@@ -1,6 +1,6 @@
 {
   "name": "snacktrack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.ts",
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
@@ -9,6 +9,7 @@
     "expo-image": "~57.0.5",
     "expo-image-manipulator": "~57.0.20",
     "expo-image-picker": "~57.0.20",
+    "expo-splash-screen": "~57.0.9",
     "expo-sqlite": "~57.0.3",
     "expo-status-bar": "~57.0.1",
     "expo-system-ui": "~57.0.4",
