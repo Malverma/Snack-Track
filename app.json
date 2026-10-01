@@ -1,25 +1,40 @@
 {
   "expo": {
-    "name": "tracksnack",
-    "slug": "tracksnack",
+    "name": "SnackTrack",
+    "slug": "snacktrack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.malverma.snacktrack"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#121016",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.malverma.snacktrack"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-image",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to use your photos for meal pictures.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to use the camera to take meal pictures.",
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "backgroundColor": "#121016"
   }
 }
